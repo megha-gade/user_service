@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="user_div" *ngFor="let user of allUser">
+    <div class="user_name">{{user.name}}</div>
+    <div class="user_status">{{user.active}}</div>
+    </div>
+
+<app-add-user></app-add-user>
+<app-delete-user></app-delete-user>
+</div>

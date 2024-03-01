@@ -1,0 +1,20 @@
+
+.user_div{
+display: flex;
+margin: 5px 0px;
+}
+
+.user_name{
+width: 80%;
+padding: 10px 30px;
+background-color: #eee;
+}
+.user_status{
+width: 20%;
+padding: 10px 40px;
+background-color: rgb(250, 187, 187);
+}
+
+.container{
+margin: 50px 30px;
+}
